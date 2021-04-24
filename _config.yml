@@ -7,11 +7,11 @@
 #
 ####################################################
 
-title: tfolio- Responsive Blogging Ghost Template
+title: Wontack Han
 email: hanwon@iu.edu
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://wontackhan.me" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  wthanone
