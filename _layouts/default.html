@@ -1,58 +1,54 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    {% seo title=false %}
-    {% include meta.html %}
+<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    {% seo %}
+    <!--call favicon icon-->
+    <link rel="icon" href="{{'/assets/images/favicon.png' | relative_url}}" type="image/x-icon"/>
 
-    <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
-    {% include analytics_head.html %}
-  </head>
+    <link rel="stylesheet" href="{{'/assets/css/bootstrap.min.css' | relative_url}}"/>
+    <link rel="stylesheet" href="{{'/assets/css/font-awesome.min.css' | relative_url}}"/>
+    <link rel="stylesheet" href="{{'/assets/css/lightbox.min.css' | relative_url}}"/>
+    <link rel="stylesheet" href="{{'/assets/css/animate.css' | relative_url}}"/>
+    <link rel="stylesheet" href="{{'/assets/css/style.css' | relative_url}}"/>
+    <link rel="stylesheet" href="{{'/assets/css/responsive.css' | relative_url}}"/> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,700&display=swap" rel="stylesheet">
+	
+	{% feed_meta %}
+</head>
 
-  <body>
-    <div id="bar"></div>
-    <div class="wrapper-container">
-      <div class="wrapper-masthead">
-        <div class="container">
-          <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
+<body data-spy="scroll" data-target=".navbar-scrolled" data-offset="0" class="scrollspy-example loading">
+    {% include header.html %}
 
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p> 
-            </div>
+     {{ content }}
 
-            <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/getting-started">Getting Started</a>
-              <a href="{{ site.baseurl }}/search">Search</a>
-              <a href="{{ site.baseurl }}/about">About</a>
-              <a href="{{ site.baseurl }}/archive">Archive</a>
-            </nav>
-          </header>
+    <!-- Start Loading ===================================-->
+    <div class="loading">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
         </div>
-      </div>
-
-      <div class="wrapper-main">
-        <div id="main" role="main" class="container">
-          {{ content }}
-        </div>
-      </div>
-
-      <div class="wrapper-footer">
-        <div class="container">
-          <footer class="footer">
-            {% include svg-icons.html %}
-          </footer>
-        </div>
-      </div>
     </div>
-
-    {% include analytics.html %}
-  </body>
+    <!-- End Loading ==================-->
+     <script src="{{'/assets/js/jquery.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/popper.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/bootstrap.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/jquery.easing.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/isotope.pkgd.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/lightbox.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/macy.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/jquery.nicescroll.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/wow.min.js' | relative_url}}"></script>
+     <script src="{{'/assets/js/custom.js' | relative_url}}"></script>
+	 
+ 
+ 
+</body>
 </html>
