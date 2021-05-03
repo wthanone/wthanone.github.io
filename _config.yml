@@ -10,18 +10,18 @@
 title: Wontack Han
 email: hanwon@iu.edu
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
+keywords: "personal site"
 url: "http://wontackhan.me" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  wthanone
 
 facebook_url: 'http://facebook.com/themeix'
-twitter_url: 'http://twitter.com/themeix_ltd'
-github_url: 'http://github.com/themeix'
-youtube_url: 'http://youtube.com/themeix'
-google_plus_url: 'http://plus.google.com'
-pinterest_url: 'http://pinterest.com'
+linkedin_url: 'http://www.linkedin.com/in/wontack-han-81b8a431/'
+github_url: 'http://github.com/wthanone'
+#youtube_url: 'http://youtube.com/themeix'
+#google_plus_url: 'http://plus.google.com'
+#pinterest_url: 'http://pinterest.com'
 
 # Build settings
 markdown: kramdown
