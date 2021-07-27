@@ -115,21 +115,20 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content: 
-      - layout : left
+      - layout : center
         title : Indiana University Bloomington
-        sub_title : Ph.D. Computer Science
         caption : 2015 - Present 
         description : |
-          - 2015 - Present : 
+          Ph.D. Computer Science
           Minor Bioinformatics
+          upervisors: Prof. Yuzhen Ye
       
 
-      - layout : left
+      - layout : center
         title : Seoul National University
-        sub_title : BS Electrical and Computer Engineering
         caption : 2006 - 2014
         description : |
-          test
+          BS Electrical and Computer Engineering
 
   
   - title: Papers
