@@ -90,7 +90,7 @@ content:
 
   - title: Experience # Title for the section
     layout: text # Type of content section (list/text)
-    content:
+    content: |
       - 2015 - Present : Research Assistant
       Indiana University Bloomington
 
@@ -103,7 +103,7 @@ content:
 
   - title: Education # Title for the section
     layout: text # Type of content section (list/text)
-    content:
+    content: |
       - 2015 - Present : Ph.D. Computer Science
       Minor Bioinformatics
       Indiana University Bloomington
