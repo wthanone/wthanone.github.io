@@ -96,19 +96,21 @@ content:
         sub_title : Research Assistant
         caption : 2015 - Present 
         description : |
+          test
 
-     - layout : left
+      - layout : left
         title : Bioinformatics Institute
         sub_title : Research Assistant
         caption : 2013 - 2015 
         description : |
+          test
 
       - layout : left
         title : Somansa
         sub_title : Software Engineer
         caption : 2010 - 2012  
         description : |
-
+          test
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -118,8 +120,8 @@ content:
         sub_title : Ph.D. Computer Science
         caption : 2015 - Present 
         description : |
-        - 2015 - Present : 
-        Minor Bioinformatics
+          - 2015 - Present : 
+          Minor Bioinformatics
       
 
       - layout : left
@@ -127,7 +129,8 @@ content:
         sub_title : BS Electrical and Computer Engineering
         caption : 2006 - 2014
         description : |
-          
+          test
+
   
   - title: Papers
     layout: text
