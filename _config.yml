@@ -89,38 +89,56 @@ content:
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
-    layout: text # Type of content section (list/text)
-    content: |
-      - 2015 - Present : Research Assistant
-      Indiana University Bloomington
+    layout: list # Type of content section (list/text)
+    content: 
+      - layout : left
+        title : Metegenome Lab 
+        sub_title : Research Assistant
+        caption : 2015 - Present 
+        description : |
 
-      - 2013 - 2015 : Research Assistant
-      Seoul National University
+     - layout : left
+        title : Bioinformatics Institute
+        sub_title : Research Assistant
+        caption : 2013 - 2015 
+        description : |
 
-      - 2010 - 2012 : Software Engineer 
-      Somansa[]
+      - layout : left
+        title : Somansa
+        sub_title : Software Engineer
+        caption : 2010 - 2012  
+        description : |
 
 
   - title: Education # Title for the section
-    layout: text # Type of content section (list/text)
-    content: |
-      - 2015 - Present : Ph.D. Computer Science
-      Minor Bioinformatics
-      Indiana University Bloomington
+    layout: list # Type of content section (list/text)
+    content: 
+      - layout : left
+        title : Indiana University Bloomington
+        sub_title : Ph.D. Computer Science
+        caption : 2015 - Present 
+        description : |
+        - 2015 - Present : 
+        Minor Bioinformatics
+      
 
-      - 2006 - 2014 : BS Electrical and Computer Engineering
-      Seoul National University
+      - layout : left
+        title : Seoul National University
+        sub_title : BS Electrical and Computer Engineering
+        caption : 2006 - 2014
+        description : |
+          
   
   - title: Papers
     layout: text
     content: | # this will include new lines to allow paragraphs
-      -Lam, Tony J., Moses Stamboulian, **Wontack Han**, and Yuzhen Ye.  "Model-based and phylogenetically adjusted quantification of metabolic interaction between microbial species." PLoS computational biology 16.10 (2020): e1007951. [https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007951&rev=1]
+      - [Lam, Tony J., Moses Stamboulian, **Wontack Han**, and Yuzhen Ye.  "Model-based and phylogenetically adjusted quantification of metabolic interaction between microbial species." PLoS computational biology 16.10 (2020): e1007951.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007951&rev=1)
 
-      - **Wontack Han**, and Yuzhen Ye. "A repository of microbial marker genes related to human health and diseases for host phenotype prediction using microbiome data." BIOCOMPUTING 2019: Proceedings of the Pacific Symposium. 2018. [https://www.worldscientific.com/doi/abs/10.1142/9789813279827_0022]
+      - [**Wontack Han**, and Yuzhen Ye. "A repository of microbial marker genes related to human health and diseases for host phenotype prediction using microbiome data." BIOCOMPUTING 2019: Proceedings of the Pacific Symposium. 2018.](https://www.worldscientific.com/doi/abs/10.1142/9789813279827_0022)
 
-      - Jiao, Dazhi, **Wontack Han**, and Yuzhen Ye. "Functional association prediction by community profiling." Methods 129 (2017): 8-17. [https://www.sciencedirect.com/science/article/pii/S1046202317300270?casa_token=DON7y8IFxbcAAAAA:tiWY2HLt9g7Nm-isSCUrAfOdm5MjgpFD2uXsEiI50MXPhjJ61L-zq0W6N5MzAVc8vA8cOFQH]
+      - [Jiao, Dazhi, **Wontack Han**, and Yuzhen Ye. "Functional association prediction by community profiling." Methods 129 (2017): 8-17.](https://www.sciencedirect.com/science/article/pii/S1046202317300270?casa_token=DON7y8IFxbcAAAAA:tiWY2HLt9g7Nm-isSCUrAfOdm5MjgpFD2uXsEiI50MXPhjJ61L-zq0W6N5MzAVc8vA8cOFQH)
 
-      -**Wontack Han**, Mingjie Wang, and Yuzhen Ye. "A concurrent subtractive assembly approach for identification of disease associated sub-metagenomes." International Conference on Research in Computational Molecular Biology. Springer, Cham, 2017.[https://link.springer.com/chapter/10.1007/978-3-319-56970-3_2]
+      - [**Wontack Han**, Mingjie Wang, and Yuzhen Ye. "A concurrent subtractive assembly approach for identification of disease associated sub-metagenomes." International Conference on Research in Computational Molecular Biology. Springer, Cham, 2017.](https://link.springer.com/chapter/10.1007/978-3-319-56970-3_2)
 
 
   - title: Skills
