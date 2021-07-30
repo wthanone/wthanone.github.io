@@ -95,8 +95,9 @@ content:
         title : Indiana University Bloomington 
         sub_title : Research Assistant
         caption : 2015 - Present 
-        quote: Metagenome Lab Prof. Yuzhen Ye
         description : |
+          **Metagenome Lab Prof. Yuzhen Ye**
+
           Working on the metagenome data analysis. 
           - subtractive assembly for detecting biomarkers from metagenome
           - k-mers clustering using locality sensitive hashing
@@ -106,8 +107,9 @@ content:
         title : Seoul National University 
         sub_title : Research Assistant
         caption : 2013 - 2015 
-        quote : Bioinformatics Institute Prof. Sun Kim
         description : |
+          **Bioinformatics Institute Prof. Sun Kim**
+          
           Distinguishing cancer phenotypes by identifying differentially expressed multi-pathsin signaling pathways
           - Analysis on 120 breast cancer RNA sequencing samples
 
