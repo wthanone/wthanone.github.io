@@ -107,7 +107,7 @@ content:
         sub_title : Research Assistant
         caption : 2013 - 2015 
         quote : Bioinformatics Institute Prof. Sun Kim
-         description : |
+        description : |
           Distinguishing cancer phenotypes by identifying differentially expressed multi-pathsin signaling pathways
           - Analysis on 120 breast cancer RNA sequencing samples
 
