@@ -48,22 +48,22 @@ linkedin_username: wthanone
 # about_title: About Me
 about_profile_image: images/wth.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Wontack Han and I'm a Ph.D. candidate of computer science. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Wontack Han and I'm a Ph.D. candidate of computer science. My research interest is  
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  
 
 content:
   - title: Research # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: comparative ananlysis of metagenome 
-        link: github.com/sproogen
+        title: subtractive assembly of metagenome data sets 
+        link: github.com/kmerLSH
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+          #  icon: fab fa-github
+          #  url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -76,10 +76,10 @@ content:
         title: machine learning 
         link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+          #  icon: fab fa-github
+          #  url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -92,25 +92,33 @@ content:
     layout: list # Type of content section (list/text)
     content: 
       - layout : left
-        title : Metegenome Lab 
+        title : Indiana University Bloomington 
         sub_title : Research Assistant
         caption : 2015 - Present 
+        quote: Metagenome Lab Prof. Yuzhen Ye
         description : |
-          test
+          Working on the metagenome data analysis. 
+          - subtractive assembly for detecting biomarkers from metagenome
+          - k-mers clustering using locality sensitive hashing
+          - machine learning approach for comparative metagenomic data
 
       - layout : left
-        title : Bioinformatics Institute
+        title : Seoul National University 
         sub_title : Research Assistant
         caption : 2013 - 2015 
-        description : |
-          test
+        quote : Bioinformatics Institute Prof. Sun Kim
+         description : |
+          Distinguishing cancer phenotypes by identifying differentially expressed multi-pathsin signaling pathways
+          - Analysis on 120 breast cancer RNA sequencing samples
 
       - layout : left
         title : Somansa
         sub_title : Software Engineer
         caption : 2010 - 2012  
         description : |
-          test
+          QA testing for the program to monitor the leakage of personal information through the Internet. 
+          - Packet analysis
+          - Testing SQL database for auditing
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -153,6 +161,7 @@ content:
       - Script Languague : Python, Bash, AWK
       - Mathematical Simulation : MATLAB, R
       - Parallel and GPU System : Tensorflow, OpenMP, MPI
+      - Database : MySQL, MSSQL
 
 # Footer
 footer_show_references: true
