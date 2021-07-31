@@ -48,7 +48,7 @@ linkedin_username: wthanone
 # about_title: About Me
 about_profile_image: images/wth.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Wontack Han and I'm a Ph.D. candidate of computer science at Indiana University. My research interest is 
+  Hi, my name's Wontack Han and I'm a Ph.D. candidate of computer science at Indiana University. My current work is the implementation of pre-assembly program using k-mers abundance information and pipeline for marker genes/genomes through machine learning algorithms. My research interests are related to comparative analysis of not only metagenome data but also human multi-omics data sets using machine learning algorithms including deep learning. Now I am looking for the job position (post-doctoral or bioinformatics research).  
 
   
 
@@ -58,7 +58,7 @@ content:
     content:
       - layout: top-middle
         title: Subtractive assembly of metagenome data sets 
-        link: https://github.com/wthanone/kmerLSH
+        link: https://sourceforge.net/projects/concurrentsa/
         # link_text: Project Website
         #additional_links:
           #- title:  sproogen/modern-resume-theme
@@ -68,11 +68,11 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)   
         description: | # this will include new lines to allow paragraphs
-          Comparative  analysis  of  metagenomes  can  be  used  to  detect  sub-metagenomes  (species  or  genesets) that are associated with specific phenotypes (e.g.,  host status).  The typical workflow is toassemble  and  annotate  metagenomic  datasets  individually  or  as  a  whole,  followed  by  statisticaltests to identify differentially abundant species/genes. The subtractive assembly, a de novo assembly  approach  for  comparative  metagenomics, firstly detects differential reads that distinguish between two groups of metagenomes and then only assembles these reads. This approach can make the entire process for finding marker genes / genomes faster and more efficient. 
+          Comparative analysis of metagenomes can be used to detect sub-metagenomes(species or genesets) that are associated with specific phenotypes (e.g., host status). The typical workflow is toassemble and annotate metagenomic datasets individually or as a whole, followed by statisticaltests to identify differentially abundant species/genes. The subtractive assembly, a de novo assembly approach for comparative metagenomics, firstly detects differential reads that distinguish between two groups of metagenomes and then only assembles these reads. This approach can make the entire process for finding marker genes/genomes faster and more efficient. 
 
       - layout: top-middle
-        title: machine learning 
-        link: github.com/sproogen
+        title: A repository of microbial marker genes 
+        link: https://sourceforge.net/projects/mi2p/
         # link_text: Project Website
         #additional_links:
           #- title:  sproogen/modern-resume-theme
@@ -97,7 +97,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          Comparative  analysis  of  metagenomes  can  be  used  to  detect  sub-metagenomes  (species  or  genesets) that are associated with specific phenotypes (e.g.,  host status).  The typical workflow is toassemble  and  annotate  metagenomic  datasets  individually  or  as  a  whole,  followed  by  statisticaltests to identify differentially abundant species/genes. The subtractive assembly 
+          Due to the complexity of microbial communities, the de novo partition of metagenomic space into specific biological entities remains to be difficult. To address this problem, researchers have utilized various features, including compositional features such as tetra-nucleotide statistics and coverage signals of genetic sequences. However, the assumptions of those methods are not  universally true. For example, the  methods relying on abundances of genetic sequences are admittedly weak in segregating taxonomically related organisms. In the process of exploring other features, it has been realized that utilizing co-abundance across multiple samples improves the resolution of genome segregation from metagenomic data sets. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
