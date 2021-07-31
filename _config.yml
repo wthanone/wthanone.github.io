@@ -48,7 +48,7 @@ linkedin_username: wthanone
 # about_title: About Me
 about_profile_image: images/wth.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Wontack Han and I'm a Ph.D. candidate of computer science. My research interest is  
+  Hi, my name's Wontack Han and I'm a Ph.D. candidate of computer science at Indiana University. My research interest is 
 
   
 
@@ -57,8 +57,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: subtractive assembly of metagenome data sets 
-        link: github.com/kmerLSH
+        title: Subtractive assembly of metagenome data sets 
+        link: https://github.com/wthanone/kmerLSH
         # link_text: Project Website
         #additional_links:
           #- title:  sproogen/modern-resume-theme
@@ -66,11 +66,9 @@ content:
           #  url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)   
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Comparative  analysis  of  metagenomes  can  be  used  to  detect  sub-metagenomes  (species  or  genesets) that are associated with specific phenotypes (e.g.,  host status).  The typical workflow is toassemble  and  annotate  metagenomic  datasets  individually  or  as  a  whole,  followed  by  statisticaltests to identify differentially abundant species/genes. The subtractive assembly, a de novo assembly  approach  for  comparative  metagenomics, firstly detects differential reads that distinguish between two groups of metagenomes and then only assembles these reads. This approach can make the entire process for finding marker genes / genomes faster and more efficient. 
       
       - layout: top-middle
         title: machine learning 
@@ -83,10 +81,22 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          The microbiome research is going through an evolutionary transition from focusing on the characterization of reference microbiomes associated with different environments/hosts to the translational applications, including using microbiome for disease diagnosis, improving the efficacy of cancer treatments, and prevention of diseases (e.g., using probiotics). Microbial markers have been identified from microbiome data derived from cohorts of patients with different diseases, treatment responsiveness, etc, and often predictors based on these markers were built for predicting host phenotype given a microbiome dataset. Unfortunately, these microbial markers and predictors are often not publishedso are not reusable by others. In this project, I report the curation of a repository of microbial marker genes and predictors built from these markers for microbiome-based prediction of host phenotype, and a computational pipeline called Mi2P (from Microbiome to Phenotype) for using the repository. 
+
+        - layout: top-middle
+        title: clustering tones of k-mers' abundance
+        link: https://github.com/wthanone/kmerLSH
+        # link_text: Project Website
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+          #  icon: fab fa-github
+          #  url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          Comparative  analysis  of  metagenomes  can  be  used  to  detect  sub-metagenomes  (species  or  genesets) that are associated with specific phenotypes (e.g.,  host status).  The typical workflow is toassemble  and  annotate  metagenomic  datasets  individually  or  as  a  whole,  followed  by  statisticaltests to identify differentially abundant species/genes. The subtractive assembly 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -99,9 +109,9 @@ content:
           **Metagenome Lab Prof. Yuzhen Ye**
 
           Working on the metagenome data analysis. 
-          - subtractive assembly for detecting biomarkers from metagenome
-          - k-mers clustering using locality sensitive hashing
-          - machine learning approach for comparative metagenomic data
+          - Subtractive assembly for detecting biomarkers from metagenome
+          - K-mers clustering using locality sensitive hashing
+          - Machine learning approach for comparative metagenomic data
 
       - layout : left
         title : Seoul National University 
@@ -109,8 +119,8 @@ content:
         caption : 2013 - 2015 
         description : |
           **Bioinformatics Institute Prof. Sun Kim**
-          
-          Distinguishing cancer phenotypes by identifying differentially expressed multi-pathsin signaling pathways
+
+          Distinguishing cancer phenotypes by identifying differentially expressed multi-paths in signaling pathways
           - Analysis on 120 breast cancer RNA sequencing samples
 
       - layout : left
