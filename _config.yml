@@ -69,7 +69,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)   
         description: | # this will include new lines to allow paragraphs
           Comparative  analysis  of  metagenomes  can  be  used  to  detect  sub-metagenomes  (species  or  genesets) that are associated with specific phenotypes (e.g.,  host status).  The typical workflow is toassemble  and  annotate  metagenomic  datasets  individually  or  as  a  whole,  followed  by  statisticaltests to identify differentially abundant species/genes. The subtractive assembly, a de novo assembly  approach  for  comparative  metagenomics, firstly detects differential reads that distinguish between two groups of metagenomes and then only assembles these reads. This approach can make the entire process for finding marker genes / genomes faster and more efficient. 
-      
+
       - layout: top-middle
         title: machine learning 
         link: github.com/sproogen
@@ -84,7 +84,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           The microbiome research is going through an evolutionary transition from focusing on the characterization of reference microbiomes associated with different environments/hosts to the translational applications, including using microbiome for disease diagnosis, improving the efficacy of cancer treatments, and prevention of diseases (e.g., using probiotics). Microbial markers have been identified from microbiome data derived from cohorts of patients with different diseases, treatment responsiveness, etc, and often predictors based on these markers were built for predicting host phenotype given a microbiome dataset. Unfortunately, these microbial markers and predictors are often not publishedso are not reusable by others. In this project, I report the curation of a repository of microbial marker genes and predictors built from these markers for microbiome-based prediction of host phenotype, and a computational pipeline called Mi2P (from Microbiome to Phenotype) for using the repository. 
 
-        - layout: top-middle
+
+      - layout: top-middle
         title: clustering tones of k-mers' abundance
         link: https://github.com/wthanone/kmerLSH
         # link_text: Project Website
